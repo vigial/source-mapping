@@ -13,6 +13,8 @@ and called functions in each defined function in the provided source codes. Also
 create a dependence graph in [dot](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) format that can be ploted, for example, with [graphviz](https://www.graphviz.org/)
 library.
 
+![alt text](https://raw.githubusercontent.com/vigial/source-mapping/tree/master/examples/dependencies.ps)
+
 # Limitations
 
 At the moment, the library has the following known limitations,
