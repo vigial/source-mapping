@@ -27,3 +27,9 @@ At the moment, the library has the following known limitations,
   if "using namespace" statment is used on namespaces with defined functions, the call to that functions
   will not be identified correctly.
 - Only C/C++ code style is supported at this moment.
+
+# Documentation
+
+Library documentation can be found in the following link,
+
+https://vigial.github.io/source-mapping/
