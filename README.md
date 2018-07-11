@@ -8,14 +8,14 @@ has been g++.
 
 # Purpose
 
-This librari provide some classes and functions to extract information of used namespaces
+This library provides some classes and functions to extract information of used namespaces
 and called functions in each defined function in the provided source codes. Also, facilite
-create a dependence graph in 'dot' format that can be ploted, for example, with graphviz
+create a dependence graph in [dot](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) format that can be ploted, for example, with [graphviz](https://www.graphviz.org/)
 library.
 
 # Limitations
 
-At the moment, the library has known limitations:
+At the moment, the library has the following known limitations,
 
 - Can distinguish between overload function declaration (functions with same name but diferent aguments),
   but can't distinguish which overload has been called.
