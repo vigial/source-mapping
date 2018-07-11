@@ -21,4 +21,7 @@ At the moment, the library has known limitations:
   but can't distinguish which overload has been called.
 - If the function is in a namespace or is a class member, the namespace/class will be part of defined
   function name (namespace::fname()). Because that, when check called functions, only the functions 
-  called specifying the namespace will be identified as a namespace::fname call.
+  called specifying the namespace will be identified as a namespace::fname call. This provoque that
+  if "using namespace" statment is used on namespaces with defined functions, the call to that functions
+  will not be identified correctly.
+- Only C/C++ code style is supported at this moment.
