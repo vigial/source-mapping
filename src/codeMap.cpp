@@ -2820,6 +2820,10 @@ int tree2dot(leaf* tree, int nleafs, const char* filename, unsigned int nprop, c
 	  const leaf* link = tree[i].getLink(j);
 	  fprintf(ftree,"     %s -> %s;\n",tree[i].name.c_str(),link->name.c_str());
 	}
+      if(nlinks == 0)
+	{
+	  fprintf(ftree,"     %s;\n",tree[i].name.c_str());
+	}
     }      
   
   fprintf(ftree, "}\n");
